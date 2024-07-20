@@ -12,25 +12,34 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution { color: white; font-size: 11px; text-align: center;
+      position: absolute; bottom: 5px; left: 50%; transform: translateX(-50%);}
+    .attribution a { color: hsl(228, 45%, 44%); text-wrap: nowrap;}
   </style>
 </head>
 <body>
+  <main>
+    <div class="card">
+      <img src="assets/images/avatar-jessica.jpeg" alt="avatar-jessica">
+      
+      <h1 class="card-title">Jessica Randall</h1>
+      <h2 class="card-location">London, United Kingdom</h2>
+      <p class="card-description">"Front-end developer and avid reader."</p>
 
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+      <div class="card-button-container">
+        <button class="card-button">GitHub</button>
+        <button class="card-button">Frontend Mentor</button>
+        <button class="card-button">LinkedIn</button>
+        <button class="card-button">Twitter</button>
+        <button class="card-button">Instagram</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/BataaB">Batkhuleg B. Bazarragchaa</a>.
+    </div>
+  </footer>
 </body>
 </html>
